@@ -1,0 +1,37 @@
+{
+  "name": "node-code",
+  "version": "1.0.0",
+  "description": "node-codes",
+  "keywords": [
+    "node"
+  ],
+  "homepage": "http://localhost:3000/",
+  "bugs": {
+    "url": "https://github.com/jibisk/node-code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibisk/node-code.git"
+  },
+  "license": "ISC",
+  "author": "Jibi S K",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "devDependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-handlebars": "3.0",
+    "nodemon": "^3.1.10",
+    "pug": "^3.0.3"
+  }
+}
